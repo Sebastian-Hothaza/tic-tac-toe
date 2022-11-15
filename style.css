@@ -10,6 +10,9 @@
     text-align: center;
     padding: 1em;
     font-size: 64px;
+    font-weight: 800;
+    color: orange;
+    background-color: #757691;
 }
 
 .status{
@@ -32,9 +35,17 @@ li {
     justify-content: center;
     align-items: center;
     background-color: white;
+    transition: background-color, .5s;
     border-style: solid;
     border-width: 1px;
     font-size: 50px;
+}
+
+li:hover{
+    background-color: rgb(223, 235, 246);
+    cursor: pointer;
+    transition: background-color, .5s;
+    
 }
 
 button {
