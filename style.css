@@ -1,4 +1,44 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #a6a7bc;
+}
+
+
+
+.header{
+    text-align: center;
+    padding: 1em;
+    font-size: 64px;
+}
+
+.status{
+    text-align: center;
+    padding: 1em;
+    font-size: 24px;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-auto-rows: 100px;
+
+    justify-content: center; 
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 50px;
+}
+
+button {
+    margin: 20px auto;
+    display: block;
+    padding: 10px 20px;
 }
