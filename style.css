@@ -52,4 +52,6 @@ button {
     margin: 20px auto;
     display: block;
     padding: 10px 20px;
+    background-color: orange;
+    font-size: 18px;
 }
